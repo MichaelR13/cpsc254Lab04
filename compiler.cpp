@@ -5,12 +5,14 @@
 using namespace std;
 
 class Compiler{
-    pritvate: 
+
+private: 
     
     vector<string> tokenStream;
+    
     vector<string> synTree;
 
-    public:
+public:
 
     string LexicalAnalyzer(tokenStream);
 
