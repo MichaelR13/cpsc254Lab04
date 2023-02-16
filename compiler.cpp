@@ -1,3 +1,12 @@
+/**
+* Original Author: Chandler Bryant
+* Created: 2023/02/16   
+* Last Updated by: student2
+* Contact information: cbryant126@gmail.com
+* Main class and class creation
+* (c) Copyright/license info
+**/
+
 #include <vector>
 #include <iostream>
 #include <fstream>
