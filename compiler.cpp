@@ -7,8 +7,8 @@ using namespace std;
 class Compiler{
     pritvate: 
     
-    vector <string> tokenStream;
-    vector <string> synTree;
+    vector<string> tokenStream;
+    vector<string> synTree;
 
     public:
 
