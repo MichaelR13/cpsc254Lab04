@@ -16,6 +16,7 @@
 
 class LexicalAnalyzer {
 public:
+ void read_input();
   // TODO
 private:
   // TODO
