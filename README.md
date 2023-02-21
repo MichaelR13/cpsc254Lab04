@@ -8,3 +8,4 @@
     - Alfredo Llamas, chewfasa@gmail.com
     - Shawn Melwani, smelwani@csu.fullerton.edu
     - Michael Rojas, michaels.rojas13@csu.fullerton.edu
+    - Karim Villasenor, kvillase26@csu.fullerton.edu
