@@ -9,3 +9,16 @@
  The function will be called read_input() and will make a vector token stream. This is all for Phase 1 (referring to our chart/diagram)
  (c) Copyright/license info
 */
+#ifndef LEXICAL_ANALYZER_H
+#define LEXICAL_ANALYZER_H
+
+#include <iostream>
+
+class LexicalAnalyzer {
+public:
+  // TODO
+private:
+  // TODO
+};
+
+#endif
