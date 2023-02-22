@@ -9,6 +9,27 @@
 **/
 
 
-#ifndef SyntaxAnalyzer
-#define SyntaxAnalyzer
+#ifndef SYNTAX_ANALYZER_H
+#define SYNTAX_ANALYZER_H
 
+#include <iostream>
+#include "LexicalAnalyzer.h"
+
+class SyntaxAnalyzer {
+private:
+  //todo
+  
+public: 
+  char root;
+  vector<char> tokenstream; //input token stream from Lexical Analyzer
+};
+
+void convertToSyntaxTree(tokenstream)
+{
+ //todo 
+}
+
+
+
+
+#endif
