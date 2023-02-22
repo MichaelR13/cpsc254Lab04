@@ -27,6 +27,7 @@ public:
 void convertToSyntaxTree(tokenstream)
 {
  //todo 
+  std::cout << syntaxTree
 }
 
 
