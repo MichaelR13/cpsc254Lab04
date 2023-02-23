@@ -11,6 +11,9 @@
 #include <iostream>
 #include <fstream>
 
+#include "LexicalAnalyzer.h"
+#include "SyntaxAnalyzer.h"
+
 using namespace std;
 
 class Compiler{
@@ -32,4 +35,4 @@ public:
     ofstream TargetCodeGenerator(tokenStream, synTree);
 
 
-}
+};

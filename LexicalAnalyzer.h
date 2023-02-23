@@ -13,13 +13,20 @@
 #define LEXICAL_ANALYZER_H
 
 #include <iostream>
+#include <vector>
 
 class LexicalAnalyzer {
-public:
- void read_input();
-  // TODO
 private:
+  std::vector<std::string> tokenStream; //Vector token stream
   // TODO
+public:
+  void read_input(); 
 };
 
+// Output a vector token stream
+void read_input()
+{
+  // TODO
+  std::cout << tokenStream << std::endl;  //Output vector token stream
+}
 #endif

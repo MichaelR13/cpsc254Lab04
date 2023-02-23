@@ -21,13 +21,13 @@ private:
   
 public: 
   char root;
-  vector<char> tokenstream; //input token stream from Lexical Analyzer
+  std::vector<char> tokenstream; //input token stream from Lexical Analyzer
 };
 
-void convertToSyntaxTree(tokenstream)
+void convertToSyntaxTree(tokenStream)
 {
  //todo 
-  std::cout << syntaxTree
+  std::cout << synTree; //output syntax tree
 }
 
 
