@@ -1,8 +1,8 @@
 /**
 * Original Author: Alfredo Llamas
 * Created: 2023/02/16   
-* Last Updated by: Alfredo Llamas
-* Contact information: frankllamas@csu.fullerton.edu
+* Last Updated by: Michael Rojas
+* Contact information: michaels.rojas13@csu.fullerton.edu
 * Purpose of this file
 * Description of Classes, Functions, etc. in the file.
 * The SemanticAnalyzer class uses the syntax tree, created from the token stream,
@@ -24,7 +24,11 @@ public:
   char *left;
   char *right;
 private:
-  // TODO
+  // The following are the possible types of nodes in the syntax tree.
+  bool is_keyword;
+  bool is_identifier;
+  bool is_statement;
+  bool is_block;
 };
 
 bool SemanticAnalyzer::is_valid_syntax_tree(char *syntax_tree)
